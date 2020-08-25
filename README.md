@@ -27,7 +27,8 @@ Example output files:
 - myEntry.js.hash 
 - otherEntry.js
 - otherEntry.js.hash 
-
+- otherEntry.css
+- otherEntry.css.hash 
 
 # Options 
 

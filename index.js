@@ -28,7 +28,7 @@ const defaultOptions = {
 function extractQueryParams(uri) {
     const paramsIdx = uri.indexOf('?');
     if (paramsIdx === -1) {
-        return null;
+        return {};
     }
     const params = {};
     uri.substr(paramsIdx + 1).split('&').forEach(p => {
