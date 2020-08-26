@@ -6,10 +6,10 @@ Currently it looks for the query parameter `v` in the asset name.
 
 # Usage
 
-`yarn add -D webpack-file-hash-plugin`
+`yarn add -D webpack-hash-file-plugin`
 
 ```js
-const WebpackFileHashPlugin = require('webpack-file-hash-plugin');
+const WebpackHashFilePlugin = require('webpack-hash-file-plugin');
 
 module.exports {
     output: {
@@ -17,7 +17,7 @@ module.exports {
         chunkFilename: '[id].js?v=[contenthash]',
     },
     plugins: [
-        new WebpackFileHashPlugin()
+        new WebpackHashFilePlugin()
     ]
 }
 ```
